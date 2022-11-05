@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
-import ReactDOM from "react-dom";
 import styled from "styled-components";
-import Modal, { ModalProvider, BaseModalBackground } from "styled-react-modal";
+import Modal, { ModalProvider} from "styled-react-modal";
 import DataTable, { TableColumn } from "react-data-table-component";
 import axios from "axios";
-import Button from "@mui/material/Button";
+
 import TextField from "@mui/material/TextField";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
@@ -31,6 +30,7 @@ interface User {
   group_id: string;
   avatar: string;
 }
+console.log(Modal)
 
 function App() {
   const Button = styled.button`
@@ -170,9 +170,7 @@ function App() {
     setOpen(false);
   };
 
-  const handleUpdateOpen = () => {
-    setUpdateModal(true);
-  };
+
 
   return (
     <ModalProvider>
