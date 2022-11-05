@@ -1,0 +1,41 @@
+{
+   "Users" : [
+    {
+   "id":"1",
+    "username" : "luka",
+    "email" : "tesset@123.com",
+    "phone_number": "5555555",
+    "password" : "123",
+    "personal_number" : "1111",
+    "first_name":"lll",
+    "last_name": "llll",
+    "birth_date":"010101",
+    "nick_name":"abbb",
+    "gender_id" : "1",
+    "culture_id":"2",
+    "role_id":"3",
+    "department_id":"5",
+    "group_id": "1",
+    "avatar" : ""
+    },
+    {
+        "id":"2",
+        "username" : "lukaa",
+        "email" : "tesset@123a.com",
+        "phone_number": "55552555",
+        "password" : "1233",
+        "personal_number" : "11111",
+        "first_name":"l2ll",
+        "last_name": "lll3l",
+        "birth_date":"0104101",
+        "nick_name":"abb5b",
+        "gender_id" : "61",
+        "culture_id":"211",
+        "role_id":"322",
+        "department_id":"335",
+        "group_id": "144#",
+        "avatar" : ""
+    }
+   ]
+}
+
